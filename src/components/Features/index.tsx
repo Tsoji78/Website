@@ -17,7 +17,12 @@ const Features = () => {
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
+              <div
+                key={feature.id}
+                className="transform transition-transform duration-300 hover:scale-105"
+              >
+                <SingleFeature feature={feature} />
+              </div>
             ))}
           </div>
         </div>

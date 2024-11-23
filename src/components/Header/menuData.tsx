@@ -27,25 +27,25 @@ const menuData: Menu[] = [
       {
         id: 3,
         title: "FAQ",
-        path: "/",
+        path: "/faq",
         newTab: false,
       },
       {
         id: 4,
         title: "Term & Condition",
-        path: "/",
+        path: "/terms",
         newTab: false,
       },
       {
         id: 5,
-        title: "Privacy Police",
-        path: "/",
+        title: "Policies",
+        path: "/policy",
         newTab: false,
       },
       {
         id: 6,
         title: "Our Team",
-        path: "/",
+        path: "/team",
         newTab: false,
       }
     ],

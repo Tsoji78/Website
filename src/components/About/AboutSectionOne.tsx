@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutSectionTwo = () => {
   return (
@@ -11,16 +12,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image2.jpg"
+                src="/images/about/image.svg"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden rounded-lg shadow-lg dark:drop-shadow-none"
+                className="drop-shadow-three dark:hidden  dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image2.jpg"
+                src="/images/about/image.svg"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none rounded-lg shadow-lg"
+                className="hidden dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
@@ -37,6 +38,21 @@ const AboutSectionTwo = () => {
                   and resources, making trading accessible and efficient for everyone.
                 </p>
               </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Empowering Your Investments 
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Rabovel is revolutionizing the Nigerian stock market with innovative 
+                  trading options and futures for everyone.
+                </p>
+              </div>
+              <Link
+                  href="/signup"
+                  className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                >
+                  Join Us!
+              </Link>
             </div>
           </div>
         </div>

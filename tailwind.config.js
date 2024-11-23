@@ -9,6 +9,25 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+
+    extend: {
+      animation: {
+        zoomIn: 'zoomIn 3s ease-in-out infinite',
+        float: "float 2s ease-in-out infinite",
+      },
+      keyframes: {
+        zoomIn: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+      },
+    },
+
     container: {
       center: true,
       padding: "1rem",
