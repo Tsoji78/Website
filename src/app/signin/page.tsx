@@ -83,7 +83,7 @@ const SigninPage = () => {
                 <form>
                   <div className="mb-8">
                     <label
-                      htmlFor="email"
+                      title="email"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
                       Your Email
@@ -97,7 +97,7 @@ const SigninPage = () => {
                   </div>
                   <div className="mb-8">
                     <label
-                      htmlFor="password"
+                      title="password"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
                       Your Password
@@ -112,7 +112,7 @@ const SigninPage = () => {
                   <div className="mb-8 flex flex-col justify-between sm:flex-row sm:items-center">
                     <div className="mb-4 sm:mb-0">
                       <label
-                        htmlFor="checkboxLabel"
+                        title="checkboxLabel"
                         className="flex cursor-pointer select-none items-center text-sm font-medium text-body-color"
                       >
                         <div className="relative">
@@ -145,7 +145,7 @@ const SigninPage = () => {
                     </div>
                     <div>
                       <a
-                        href="#0"
+                        href="#"
                         className="text-sm font-medium text-primary hover:underline"
                       >
                         Forgot Password?

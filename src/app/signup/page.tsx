@@ -69,7 +69,7 @@ const SignupPage = () => {
                 <form>
                   <div className="mb-8">
                     <label
-                      htmlFor="name"
+                      title="name"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
                       {" "}
@@ -84,7 +84,7 @@ const SignupPage = () => {
                   </div>
                   <div className="mb-8">
                     <label
-                      htmlFor="email"
+                      title="email"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
                       {" "}
@@ -99,7 +99,7 @@ const SignupPage = () => {
                   </div>
                   <div className="mb-8">
                     <label
-                      htmlFor="password"
+                      title="password"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
                       {" "}
@@ -114,7 +114,7 @@ const SignupPage = () => {
                   </div>
                   <div className="mb-8 flex">
                     <label
-                      htmlFor="checkboxLabel"
+                      title="checkboxLabel"
                       className="flex cursor-pointer select-none text-sm font-medium text-body-color"
                     >
                       <div className="relative">
@@ -144,12 +144,12 @@ const SignupPage = () => {
                       </div>
                       <span>
                         By creating account means you agree to the
-                        <a href="#0" className="text-primary hover:underline">
+                        <a href="/terms" className="text-primary hover:underline">
                           {" "}
                           Terms and Conditions{" "}
                         </a>
                         , and our
-                        <a href="#0" className="text-primary hover:underline">
+                        <a href="/plicy" className="text-primary hover:underline">
                           {" "}
                           Privacy Policy{" "}
                         </a>

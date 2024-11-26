@@ -1,9 +1,9 @@
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Policies Page | Rabovel",
-  description: "Learn about Rabovel's privacy policy, terms of use, and refund policy.",
-};
+// export const metadata: Metadata = {
+//   title: "Policies Page | Rabovel",
+//   description: "Learn about Rabovel's privacy policy, terms of use, and refund policy.",
+// };
 
 const PolicyPage = () => {
   return (
