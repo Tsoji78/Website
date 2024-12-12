@@ -40,7 +40,7 @@ const TermsPage = () => {
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-4">Terms & Conditions</h1>
         <p className="text-lg text-gray-600">
-          Please read the terms and conditions carefully before using Rabovel's services.
+          Please read the terms and conditions carefully before using Rabovel&rsquo;s services.
         </p>
       </header>
 
@@ -52,13 +52,13 @@ const TermsPage = () => {
             className="mb-6 border-b border-gray-200 pb-6 last:border-none"
           >
             <h2 className="text-xl font-semibold mb-2">{term.title}</h2>
-            <p className="text-gray-700">{term.content}</p>
+            <p className="">{term.content}</p>
           </div>
         ))}
       </section>
 
       {/* Footer Note */}
-      <footer className="text-center mt-10 text-gray-500 text-sm">
+      <footer className="text-center mt-10 text-sm">
         <p>
           If you have any questions about these terms, please contact our support team.
         </p>

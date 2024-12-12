@@ -59,8 +59,8 @@ const Header = () => {
                 <Image
                   src="/images/logo/Rabovel.png "
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={100}
+                  height={10}
                   className="w-full dark:hidden"
                 />
                 <Image

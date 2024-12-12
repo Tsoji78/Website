@@ -40,7 +40,7 @@ const FAQPage = () => {
       {/* Header Section */}
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
-        <p className="text-lg text-gray-600">
+        <p className="text-lg">
           Find answers to the most common questions about Rabovel.
         </p>
       </header>
@@ -54,7 +54,7 @@ const FAQPage = () => {
           >
             <button
               onClick={() => toggleAccordion(index)}
-              className="w-full text-left py-4 px-5 text-gray-800 font-medium flex justify-between items-center focus:outline-none"
+              className="w-full text-left py-4 px-5 font-medium flex justify-between items-center focus:outline-none"
             >
               <span>{faq.question}</span>
               <span
@@ -66,7 +66,7 @@ const FAQPage = () => {
               </span>
             </button>
             {openIndex === index && (
-              <div className="px-5 pb-4 text-gray-600">
+              <div className="px-5 pb-4">
                 <p>{faq.answer}</p>
               </div>
             )}

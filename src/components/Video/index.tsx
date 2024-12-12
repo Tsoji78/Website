@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
@@ -34,8 +33,8 @@ const Video = () => {
                     className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >
                     <svg
-                      width="16"
-                      height="18"
+                      width="18"
+                      height="20"
                       viewBox="0 0 16 18"
                       className="fill-current"
                     >
