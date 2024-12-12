@@ -39,8 +39,8 @@ const TermsPage = () => {
       {/* Header Section */}
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold mb-4">Terms & Conditions</h1>
-        <p className="text-lg text-gray-600">
-          Please read the terms and conditions carefully before using Rabovel&rsquo;s services.
+        <p className="text-lg">
+          Please read the terms and conditions carefully before using Rabovel's services.
         </p>
       </header>
 
