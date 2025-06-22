@@ -34,10 +34,10 @@ const Cta = () => {
               </p>
               <div className="mt-8">
                 <Link
-                  href="/signup"
+                  href="/contact"
                   className="inline-block rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl dark:from-blue-600 dark:to-indigo-700"
                 >
-                  Sign Up
+                  Learn more
                 </Link>
               </div>
             </div>

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative z-10 overflow-hidden bg-cover bg-center bg-no-repeat pb-16 pt-[100px] dark:bg-gray-500 md:pb-[100px] md:pt-[120px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[120px] 2xl:pt-[90px]">
       {/* Background with Overlay */}
       <div
-        className="absolute inset-0 bg-black opacity-35"
+        className="absolute inset-0 bg-black opacity-35 light:bg-gray-900"
         style={{
           backgroundImage: `url('/images/hero/background1.jpg')`,
           backgroundSize: "cover",
@@ -28,12 +28,12 @@ const Hero = () => {
               <p className="mb-8 text-lg font-extrabold leading-tight sm:text-xl">
                 Experience a new era of trading in Nigeria with Rabovel. Join us today to explore innovative features like options and futures trading that elevate your investment strategy.
               </p>
-              <Link
+              {/* <Link
                 href="/signup"
                 className="inline-block rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl dark:from-blue-600 dark:to-indigo-700"
               >
                 Get Started
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -45,7 +45,7 @@ const Hero = () => {
                 alt="Stock Exchange Chart"
                 width={600}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg"
               />
             </div>
           </div>

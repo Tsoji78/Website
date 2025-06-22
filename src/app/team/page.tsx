@@ -24,18 +24,6 @@ const Team = () => {
       },
     },
     {
-      name: "Haye Binjo Emmanuel",
-      role: "Chief Financial Officer/CO-Founder",
-      profession: "Financial Expert",
-      image: "/images/team/Haye.jpeg",
-      socialLinks: {
-        twitter: "https://x.com/binjo_haye",
-        linkedin: "https://www.linkedin.com/in/haye-binjo-a956901b3",
-        instagram: "https://instagram.com/emilydavis",
-        facebook: "https://facebook.com/emilydavis",
-      },
-    },
-    {
       name: "Abdulrahman Sadiq",
       role: "Chief Technology Officer",
       profession: "Software Developer",
@@ -65,7 +53,7 @@ const Team = () => {
     <section id="about" className="pt-16 mb-5 md:pt-20 lg:pt-28">
       <div className="container mx-auto px-4">
         <h1 className="text-center mt-10 text-4xl font-bold mb-8">Our Team</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}

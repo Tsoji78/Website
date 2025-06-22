@@ -1,5 +1,5 @@
 import AboutSectionOne from "@/components/About/AboutSection";
-import Brands from "@/components/Brands";
+//import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 //import Testimonials from "@/components/Testimonials";
@@ -24,7 +24,7 @@ export default function Home() {
       <Features />
       {/* <Testimonials /> */}
       <Stocks/>
-      <Brands />      
+      {/* <Brands />       */}
       {/* <Video /> */}
       <Cta/>
       <AboutSectionOne />
