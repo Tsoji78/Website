@@ -26,7 +26,7 @@ const Team = () => {
     {
       name: "Abdulrahman Sadiq",
       role: "Chief Technology Officer",
-      profession: "Software Developer",
+      profession: "financial engineer",
       image: "/images/team/Sadiq.jpg",
       socialLinks: {
         twitter: "https://x.com/ABDULRAHMA27681",
@@ -38,7 +38,7 @@ const Team = () => {
     {
       name: "Tsoji Victor Rikwen",
       role: "Chief Operation Officer",
-      profession: "Software Developer",
+      profession: "financial engineer",
       image: "/images/team/Tsoji.jpg",
       socialLinks: {
         twitter: "https://x.com",
