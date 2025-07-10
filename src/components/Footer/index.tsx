@@ -375,7 +375,7 @@ const Footer = () => {
           </svg>
         </div>
         <div className="container mx-auto">
-          <p className="text-md-3 bg-grey-200 font-semibold text-black dark:text-white justify-center">&copy; 2024 Rabovel. All rights reserved.</p>
+          <p className="text-md-3 bg-grey-200 font-semibold text-black dark:text-white justify-center">&copy; 2025 Rabovel. All rights reserved.</p>
         </div>
       </footer>
     </>
