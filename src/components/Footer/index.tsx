@@ -124,12 +124,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/team"
-                      className="mb-4 inline-block text-base text-black dark:text-white duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Meet Our Team
-                    </Link>
+                   
                   </li>
                 </ul>
               </div>

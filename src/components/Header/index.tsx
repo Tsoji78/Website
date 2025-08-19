@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/Rabovel.png "
+                  src="/images/logo/Rabovel.png"
                   alt="logo"
                   width={100}
                   height={10}

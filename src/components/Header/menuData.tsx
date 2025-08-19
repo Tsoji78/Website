@@ -48,12 +48,7 @@ const menuData: Menu[] = [
         path: "/policy",
         newTab: false,
       },
-      {
-        id: 6,
-        title: "Our Team",
-        path: "/team",
-        newTab: false,
-      }
+      
     ],
   },
 ];
