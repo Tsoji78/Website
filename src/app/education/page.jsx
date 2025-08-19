@@ -18,7 +18,7 @@ const Education = () => {
           To start trading Nigerian stocks on Rabovel, follow these steps to create your account and begin investing.
         </p>
         <ol className="list-decimal pl-6 space-y-3">
-          <li>Visit the <a href="https://rabovel.com" className="text-blue-600 hover:text-blue-800 transition duration-200">Rabovel website</a> and click on "Sign Up".</li>
+          <li>Visit the <a href="https://rabovel.com" className="text-blue-600 hover:text-blue-800 transition duration-200">Rabovel website</a> and click on &ldquo;Sign Up&rdquo;.</li>
           <li>Fill in your personal information, including your National ID, address, and bank details.</li>
           <li>Complete the KYC (Know Your Customer) process by submitting documents for identity verification.</li>
           <li>Once your account is verified, you will receive login credentials to access the platform.</li>
@@ -111,7 +111,7 @@ const Education = () => {
           <div>
             <h3 className="text-xl font-medium mb-2">How do I withdraw funds from Rabovel?</h3>
             <p className="text-lg">
-              To withdraw funds, log in to your Rabovel account, go to the "Funds" section, and choose "Withdraw". Enter your bank details to receive the transfer.
+              To withdraw funds, log in to your Rabovel account, go to the &ldquo;Funds&rdquo; section, and choose &ldquo;Withdraw&rdquo;. Enter your bank details to receive the transfer.
             </p>
           </div>
           <div>
